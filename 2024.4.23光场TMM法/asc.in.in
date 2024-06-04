@@ -1,0 +1,23 @@
+# substrate semiconductor material formula
+substrate_formula = InAs
+
+# film metal material formula
+film_formula = Au
+
+# thickness of the substrate semiconductor material 
+substrate_thickness = 30
+
+# thickness of the film metal material 
+film_thickness = 30
+
+# maximum number of atoms in system
+max_num_atoms = 1000
+
+# the lowest energy structures extracted from the saved MP database for the semiconductor
+e_order = 0
+
+# if perform DFT calculations for the semicondutor properties: yes/no
+is_dft_calc = yes
+
+# The parallel submiting commmd
+para_sub_com = mpirun -np 28 vasp544 >log.vasp
